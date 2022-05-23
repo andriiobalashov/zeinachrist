@@ -48,3 +48,7 @@ function changeText(){
 }
 
 changeText();
+
+jQuery(document).on('scroll', function(){
+  jQuery('.moving-text-1').css("left", Math.max(100 - 0.2*window.scrollY, 1) + "vw");
+})

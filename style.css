@@ -16,6 +16,12 @@
     font-weight: 800;
 }
 
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('/typographie/MonumentExtended-Regular.ttf')  format('truetype');
+    font-weight: 400;
+}
+
 
 body {
     margin: 0;
@@ -256,6 +262,7 @@ header {
     position: absolute;
     width: 316px;
     margin: auto;
+    z-index: 2;
 }
 
 .about-star-top {
@@ -317,4 +324,59 @@ header {
 
 .about-buttons {
     margin: 0 18px;
+}
+
+.moving-text-1 {
+    z-index: 1;
+    top: 40px;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color: #F3EEEA;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.moving-text-2 {
+    z-index: 5;
+    top: 120px;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FC2F5D;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.moving-text-3 {
+    z-index: 1;
+    top: 260px;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color:  #D7D2F1;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.about-text-image-section {
+    box-sizing: border-box;
+    position: relative;
+    width: 100vw;
+    height: auto;
 }
