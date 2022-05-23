@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Tropiline Sans';
+    src: url('/typographie/TropilineSans-Light.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tropiline Sans';
+    src: url('/typographie/TropilineSans-Bold.ttf')  format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('/typographie/Agrandir-GrandHeavy.ttf')  format('truetype');
+    font-weight: 800;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #D8D4F2;
+    position: relative;
+    margin-bottom: -144px;
+}
+
+.logo {
+    width: 117px;
+    height: 117px;
+    margin: auto;
+}
+
+.header-container, .navbar-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-item {
+    margin: 0 42px;
+}
+
+.nav-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.home-hero {
+    background-image: url('/media/Textures/Texture-beige-desktop.png');
+    height: 100vh;
+    background-size: cover;
+}
+
+.center-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.title-1 {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 145%;
+    font-size: 54px;
+}
+
+.hero-parqarqah {
+    width: 580px;
+    margin-top: 16px;
+    margin-bottom: 52px;
+}
+
+.paragraph-1 {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.8em;
+}
+
+.change-word {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    transition: 1s;
+}
+
+.button-standart {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: #D8D4F2;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px black;
+    transition: .3s;
+}
+
+.button-standart:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px #D8D4F2;
+}
+
+.hero-text-section {
+    margin-top: 92px;
+}
+
+.content-asolutly-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 144px;
+}
+
+.cycle-background {
+    background-image: url(/media/Textures/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-mockup {
+    position: relative;
+    height: auto;
+    height: 560px;
+    width: 400px;
+}
+
+.mockup {
+    position: absolute;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.mockup-star-top {
+    position: absolute;
+    z-index: 3;
+    width: 91px;
+    height: auto;
+    right: -50px;
+}
+
+.mockup-star-bottom {
+    position: absolute;
+    z-index: 3;
+    width: 91px;
+    height: auto;
+    bottom: 50px;
+    left: -50px;
+}
+
+.mockup-bg {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.hero-word {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.border-image {
+    position: absolute;
+    left: 0;
+    top: 64px;
+}
