@@ -28,27 +28,6 @@ $(window).on('resize scroll', function(){
   rect = $('#hero-section')[0].getBoundingClientRect();
 })
 
-var texts = new Array();
-texts.push("entrepreneurs");
-texts.push("porteurs de projets");
-texts.push("influenceurs");
-texts.push("communiquants");
-texts.push("créateurs");
-
-var point = 0;
-
-function changeText(){
-  $('.change-word').html(texts[point]);
-  if(point < texts.length - 1){
-    point ++;
-  }else{
-    point = 0;
-  }
-  setTimeout(changeText, 5000)
-}
-
-changeText();
-
 jQuery(document).on('scroll', function(){
   jQuery('.moving-text-1').css("left", Math.max(100 - 0.2*window.scrollY, 1) + "vw");
 })

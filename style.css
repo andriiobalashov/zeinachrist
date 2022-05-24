@@ -100,20 +100,57 @@ header {
     margin-bottom: 52px;
 }
 
+.paragraph-1-scroll {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    width: auto;
+}
+
+.scroller {
+    height: 32px;
+    margin-left: 10px;
+    width: 200px !important;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    transition: 1s;
+}
+
+.scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 8s infinite;
+    font-weight: bold;
+
+}
+@keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+}
+
 .paragraph-1 {
     font-family: 'Tropiline Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 1.8em;
-}
-
-.change-word {
-    font-family: 'Tropiline Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    transition: 1s;
 }
 
 .button-standart {
@@ -149,6 +186,11 @@ header {
 
 .hero-text-section {
     margin-top: 92px;
+}
+
+.hero-paragraph-container {
+    display: flex;
+    align-items: center;
 }
 
 .content-asolutly-center {
@@ -270,7 +312,7 @@ header {
     z-index: 3;
     width: 91px;
     height: auto;
-    top: -30px;
+    top: -10px;
     right: -100px;
 }
 
@@ -279,7 +321,7 @@ header {
     z-index: 3;
     width: 91px;
     height: auto;
-    bottom: -30px;
+    bottom: -10px;
     left: -100px;
 }
 
@@ -328,7 +370,7 @@ header {
 
 .moving-text-1 {
     z-index: 1;
-    top: 40px;
+    top: 110px;
     position: absolute;
     font-family: 'Monument Extended';
     font-style: normal;
@@ -340,11 +382,12 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
+    width: 100vw;
 }
 
 .moving-text-2 {
     z-index: 5;
-    top: 120px;
+    top: 210px;
     position: absolute;
     font-family: 'Monument Extended';
     font-style: normal;
@@ -356,11 +399,12 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
+    width: 100vw;
 }
 
 .moving-text-3 {
     z-index: 1;
-    top: 260px;
+    top: 310px;
     position: absolute;
     font-family: 'Monument Extended';
     font-style: normal;
@@ -372,6 +416,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
+    width: 100vw;
 }
 
 .about-text-image-section {
@@ -379,4 +424,6 @@ header {
     position: relative;
     width: 100vw;
     height: auto;
+    display: block;
+    overflow: hidden;
 }
