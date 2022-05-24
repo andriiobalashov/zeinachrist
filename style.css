@@ -606,7 +606,7 @@ img {
     line-height: 45px;
     text-decoration: none;
     background-color: #D8D4F2;
-    padding: 16px 48px;
+    padding: 8px 48px;
     color: black;
     border: 2px solid #000000;
     border-radius: 70px;
@@ -622,7 +622,7 @@ img {
     line-height: 45px;
     text-decoration: none;
     background-color: white;
-    padding: 16px 48px;
+    padding: 8px 48px;
     color: black;
     border: 2px solid #000000;
     border-radius: 70px;
@@ -630,7 +630,7 @@ img {
 }
 
 .second-buttom-container {
-    margin-top: 64px;
+    margin-top: 32px;
     width: 100%;
     height: auto;
     display: flex;
@@ -789,4 +789,70 @@ img {
     font-weight: 700;
     font-size: 24px;
     line-height: 142%;
+}
+
+.case-stadies {
+    background-image: url('/media/textures/plastic-wrap.png');
+    padding: 126px 92px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.case-stadie-container {
+    background: #F3EEEA;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.case-study-label {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 155%;
+    text-align: center;
+    color: #000000;
+    background: #D8D4F2;
+    border-radius: 40px;
+    padding: 16px 36px;
+    margin: auto;
+    transform: matrix(1, -0.04, 0.03, 1, 0, 0);
+    margin-top: -48px;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container {
+    width: 100%;
+    padding: 72px 124px;
+}
+
+.case-study-img {
+    width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000000 !important;
+}
+
+.slide-h {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.slide-span {
+    background-color: #3C6BB9;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
 }
