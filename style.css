@@ -22,6 +22,12 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Ahsing';
+    src: url('/typographie/Ahsing-Regular.ttf')  format('truetype');
+    font-weight: 400;
+}
+
 
 body {
     margin: 0;
@@ -32,6 +38,14 @@ header {
     border-bottom: 1px solid #D8D4F2;
     position: relative;
     margin-bottom: -144px;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
 }
 
 .logo {
@@ -72,7 +86,7 @@ header {
 
 .home-hero {
     background-image: url('/media/textures/Texture-beige-desktop.png');
-    height: 100vh;
+    height: 105vh;
     background-size: cover;
 }
 
@@ -327,7 +341,7 @@ header {
 
 .buttons-container {
     padding-top: 106px;
-    padding-bottom: 106px;
+    padding-bottom: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,4 +441,125 @@ header {
     height: auto;
     display: block;
     overflow: hidden;
+}
+
+.about-paragraph {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    transition: .3s;
+}
+
+.about-paragraph-container {
+    padding-bottom: 106px;
+}
+
+.second-section {
+    padding: 75px;
+}
+
+.second-section-title {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 146.4%;
+    color: #181819;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+
+.services-span {
+    font-family: 'Ahsing';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 146.4%;
+    letter-spacing: 0.04em;
+    color: #F3EEEA;
+    background-color: #000000;
+    border-radius: 60px;
+    padding: 5px 28px;
+    margin: 0 18px;
+    transform: rotate(-3.17deg);
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-icon {
+    height: 83px;
+    width: 83px;
+}
+
+.service-card-bg {
+    text-align: center;
+    background: #D8D4F2;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 64px 100px;
+    width: 500px;
+}
+
+.service-card-icon {
+    margin-top: -150px;
+}
+
+.service-card-title {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 162.4%;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.service-card-button {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 162.4%;
+    color: #000000;
+}
+
+.service-card-butto::after {
+    content: url("");
+    width: 20px;
+    height: 20px;
+}
+
+.service-top-left {
+    margin-left: auto;
+}
+
+.service-top-right {
+    margin-right: auto;
+}
+
+.service-bottom-left {
+    margin-left: auto;
+}
+
+.service-bottom-right {
+    margin-right: auto;
+}
+
+.service-card {
+    padding: 45px;
 }

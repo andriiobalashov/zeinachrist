@@ -59,4 +59,21 @@ $(window).bind("scroll",function(e){
   lastScrollTop = $(window).scrollTop();
 });
 
+$('#about-button-1').click(function() {
+  $('#about-hide-text-1').removeClass('none');
+  $('#about-hide-text-2').addClass('none');
+  $('#about-hide-text-3').addClass('none');
+});
+
+$('#about-button-2').click(function() {
+  $('#about-hide-text-2').removeClass('none');
+  $('#about-hide-text-1').addClass('none');
+  $('#about-hide-text-3').addClass('none');
+});
+
+$('#about-button-3').click(function() {
+  $('#about-hide-text-3').removeClass('none');
+  $('#about-hide-text-1').addClass('none');
+  $('#about-hide-text-2').addClass('none');
+});
 
