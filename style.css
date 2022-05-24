@@ -382,12 +382,13 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    width: 100vw;
+    width: 200rem;
 }
 
 .moving-text-2 {
     z-index: 5;
     top: 210px;
+    left: 0;
     position: absolute;
     font-family: 'Monument Extended';
     font-style: normal;
@@ -399,7 +400,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    width: 100vw;
+    width: 200rem;
 }
 
 .moving-text-3 {
@@ -416,7 +417,7 @@ header {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
-    width: 100vw;
+    width: 200rem;
 }
 
 .about-text-image-section {

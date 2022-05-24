@@ -28,6 +28,35 @@ $(window).on('resize scroll', function(){
   rect = $('#hero-section')[0].getBoundingClientRect();
 })
 
-jQuery(document).on('scroll', function(){
-  jQuery('.moving-text-1').css("left", Math.max(100 - 0.2*window.scrollY, 1) + "vw");
-})
+$target1  = $(".moving-text-1").first(),
+$target2  = $(".moving-text-2").first(),
+$target3  = $(".moving-text-3").first(),
+currentPosition1 = parseInt($target1.css("transform").split(",")[4]),
+currentPosition2 = parseInt($target2.css("transform").split(",")[4]),
+currentPosition2 -= 1000,
+currentPosition3 = parseInt($target3.css("transform").split(",")[4]),
+moveBy = function(scrolledBy){
+    currentPosition1 += scrolledBy;
+    currentPosition2 -= scrolledBy;
+    currentPosition3 += scrolledBy;
+    $target1.css("transform", "translateX(" + (currentPosition1) + "px)")
+    $target2.css("transform", "translateX(" + (currentPosition2) + "px)")
+    $target3.css("transform", "translateX(" + (currentPosition3) + "px)")
+},
+lastScrollTop = 0;
+
+currentPosition1 = isNaN(currentPosition1) ? 0 : currentPosition1;
+$(window).bind("scroll",function(e){
+  var scrolledBy = $(window).scrollTop() - lastScrollTop;
+  moveBy(-scrolledBy);
+  lastScrollTop = $(window).scrollTop();
+});
+
+currentPosition2 = isNaN(currentPosition2) ? 0 : currentPosition2;
+$(window).bind("scroll",function(e){
+  var scrolledBy = $(window).scrollTop() - lastScrollTop;
+  moveBy(-scrolledBy);
+  lastScrollTop = $(window).scrollTop();
+});
+
+
