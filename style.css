@@ -28,6 +28,17 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: 'Tropiline';
+    src: url('/typographie/Tropiline-Light.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tropiline';
+    src: url('/typographie/Tropiline-Black.ttf')  format('truetype');
+    font-weight: 600;
+}
 
 body {
     margin: 0;
@@ -65,6 +76,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+img {
+    pointer-events: none;
 }
 
 .navbar {
@@ -125,7 +140,7 @@ header {
 .scroller {
     height: 32px;
     margin-left: 10px;
-    width: 200px !important;
+    width: 300px !important;
     line-height: 1.2em;
     position: relative;
     overflow: hidden;
@@ -140,7 +155,7 @@ header {
 .scroller > span {
     position: absolute;
     top: 0;
-    animation: slide 8s infinite;
+    animation: slide 5s infinite;
     font-weight: bold;
 
 }
@@ -476,6 +491,9 @@ header {
 
 .second-section {
     padding: 75px;
+    background-image: url('/media/textures/bg-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .second-section-title {
@@ -577,5 +595,198 @@ header {
 }
 
 .service-card {
-    padding: 45px;
+    padding: 45px 35px;
+}
+
+.button-standart-light:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: #D8D4F2;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px black;
+    transition: .3s;
+}
+
+.button-standart-light {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px #D8D4F2;
+}
+
+.second-buttom-container {
+    margin-top: 64px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.second-button-style {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+    transition: .3s;
+}
+
+.second-button-style:hover {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+}
+
+.second-button-style-active {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+}
+
+.second-nav button {
+    margin: 0 10px;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-hidden-default {
+    margin-top: 36px;
+}
+
+.second-button-arrow {
+    border: 0;
+    background-color: transparent;
+}
+
+.service-info-1 {
+    width: 500px;
+    background: #D8D4F2;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 36px 43px;
+    margin-right: 35px;
+    height: 100%;
+}
+
+.service-info-2 {
+    width: 500px;
+    background: #F3EEEA;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 36px 43px;
+    margin-left: 35px;
+    height: 100%;
+}
+
+.second-left-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.second-right-container {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.second-label {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 155%;
+    background-color: white;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 40px;
+    padding: 16px 36px;
+    text-align: center;
+    width: auto;
+    margin-top: -72px;
+}
+
+.service-info-title {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 162.4%;
+    margin-top: 72px;
+    margin-bottom: 92px;
+    text-align: center;
+}
+
+.service-icon-1 {
+    width: 328px;
+    height: 328px;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-paragraph {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.star-icon {
+    width: 54px;
+    height: 54px;
+}
+
+.service-info-h {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
 }

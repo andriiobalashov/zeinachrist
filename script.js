@@ -95,3 +95,89 @@ $('#about-button-3').click(function() {
   $('#about-hide-text-2').addClass('none');
 });
 
+$('#service-button-1').click(function() {
+  $('.second-hidden-default').removeClass('none');
+  $('.second-show-default').addClass('none');
+  $('#service-1-info').removeClass('none');
+  $('#service-button-nav-1').addClass('second-button-style-active');
+});
+
+$('#service-button-2').click(function() {
+  $('.second-hidden-default').removeClass('none');
+  $('.second-show-default').addClass('none');
+  $('#service-2-info').removeClass('none');
+  $('#service-button-nav-2').addClass('second-button-style-active');
+});
+
+$('#service-button-3').click(function() {
+  $('.second-hidden-default').removeClass('none');
+  $('.second-show-default').addClass('none');
+  $('#service-3-info').removeClass('none');
+  $('#service-button-nav-3').addClass('second-button-style-active');
+});
+
+$('#service-button-4').click(function() {
+  $('.second-hidden-default').removeClass('none');
+  $('.second-show-default').addClass('none');
+  $('#service-4-info').removeClass('none');
+  $('#service-button-nav-4').addClass('second-button-style-active');
+});
+
+
+$('#service-button-nav-0').click(function() {
+  $('.second-hidden-default').addClass('none');
+  $('.second-show-default').removeClass('none');
+  $('#service-1-info').addClass('none');
+  $('#service-2-info').addClass('none');
+  $('#service-3-info').addClass('none');
+  $('#service-4-info').addClass('none');
+  $('#service-button-nav-1').removeClass('second-button-style-active');
+  $('#service-button-nav-2').removeClass('second-button-style-active');
+  $('#service-button-nav-3').removeClass('second-button-style-active');
+  $('#service-button-nav-4').removeClass('second-button-style-active');
+});
+
+$('#service-button-nav-1').click(function() {
+  $('#service-1-info').removeClass('none');
+  $('#service-2-info').addClass('none');
+  $('#service-3-info').addClass('none');
+  $('#service-4-info').addClass('none');
+  $('#service-button-nav-1').addClass('second-button-style-active');
+  $('#service-button-nav-2').removeClass('second-button-style-active');
+  $('#service-button-nav-3').removeClass('second-button-style-active');
+  $('#service-button-nav-4').removeClass('second-button-style-active');
+});
+
+$('#service-button-nav-2').click(function() {
+  $('#service-1-info').addClass('none');
+  $('#service-2-info').removeClass('none');
+  $('#service-3-info').addClass('none');
+  $('#service-4-info').addClass('none');
+  $('#service-button-nav-1').removeClass('second-button-style-active');
+  $('#service-button-nav-2').addClass('second-button-style-active');
+  $('#service-button-nav-3').removeClass('second-button-style-active');
+  $('#service-button-nav-4').removeClass('second-button-style-active');
+});
+
+$('#service-button-nav-3').click(function() {
+  $('#service-1-info').addClass('none');
+  $('#service-2-info').addClass('none');
+  $('#service-3-info').removeClass('none');
+  $('#service-4-info').addClass('none');
+  $('#service-button-nav-1').removeClass('second-button-style-active');
+  $('#service-button-nav-2').removeClass('second-button-style-active');
+  $('#service-button-nav-3').addClass('second-button-style-active');
+  $('#service-button-nav-4').removeClass('second-button-style-active');
+});
+
+$('#service-button-nav-4').click(function() {
+  $('#service-1-info').addClass('none');
+  $('#service-2-info').addClass('none');
+  $('#service-3-info').addClass('none');
+  $('#service-4-info').removeClass('none');
+  $('#service-button-nav-1').removeClass('second-button-style-active');
+  $('#service-button-nav-2').removeClass('second-button-style-active');
+  $('#service-button-nav-3').removeClass('second-button-style-active');
+  $('#service-button-nav-4').addClass('second-button-style-active');
+});
+
