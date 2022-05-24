@@ -378,6 +378,22 @@ header {
     transition: .3s;
 }
 
+.buttons-secondary-active {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 2px 48px;
+    color:#F93460;
+    border: 2px solid white;
+    box-shadow: 5px 5px 1px 1px #F93460;
+    border-radius: 70px;
+    transition: .3s;
+}
+
 .about-buttons {
     margin: 0 18px;
 }

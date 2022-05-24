@@ -60,18 +60,36 @@ $(window).bind("scroll",function(e){
 });
 
 $('#about-button-1').click(function() {
+  $('#about-button-1').removeClass('buttons-secondary');
+  $('#about-button-1').addClass('buttons-secondary-active');
+  $('#about-button-2').addClass('buttons-secondary');
+  $('#about-button-2').removeClass('buttons-secondary-active');
+  $('#about-button-3').addClass('buttons-secondary');
+  $('#about-button-3').removeClass('buttons-secondary-active');
   $('#about-hide-text-1').removeClass('none');
   $('#about-hide-text-2').addClass('none');
   $('#about-hide-text-3').addClass('none');
 });
 
 $('#about-button-2').click(function() {
+  $('#about-button-2').removeClass('buttons-secondary');
+  $('#about-button-2').addClass('buttons-secondary-active');
+  $('#about-button-1').addClass('buttons-secondary');
+  $('#about-button-1').removeClass('buttons-secondary-active');
+  $('#about-button-3').addClass('buttons-secondary');
+  $('#about-button-3').removeClass('buttons-secondary-active');
   $('#about-hide-text-2').removeClass('none');
   $('#about-hide-text-1').addClass('none');
   $('#about-hide-text-3').addClass('none');
 });
 
 $('#about-button-3').click(function() {
+  $('#about-button-3').removeClass('buttons-secondary');
+  $('#about-button-3').addClass('buttons-secondary-active');
+  $('#about-button-1').addClass('buttons-secondary');
+  $('#about-button-1').removeClass('buttons-secondary-active');
+  $('#about-button-2').addClass('buttons-secondary');
+  $('#about-button-2').removeClass('buttons-secondary-active');
   $('#about-hide-text-3').removeClass('none');
   $('#about-hide-text-1').addClass('none');
   $('#about-hide-text-2').addClass('none');
