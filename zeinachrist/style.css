@@ -1,0 +1,1157 @@
+@font-face {
+    font-family: 'Tropiline Sans';
+    src: url('typographie/TropilineSans-Light.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tropiline Sans';
+    src: url('typographie/TropilineSans-Bold.ttf')  format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('typographie/Agrandir-GrandHeavy.ttf')  format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('typographie/MonumentExtended-Regular.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ahsing';
+    src: url('typographie/Ahsing-Regular.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tropiline';
+    src: url('typographie/Tropiline-Light.ttf')  format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Tropiline';
+    src: url('typographie/Tropiline-Black.ttf')  format('truetype');
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border-bottom: 1px solid #D8D4F2;
+    position: relative;
+    margin-bottom: -144px;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.logo {
+    width: 117px;
+    height: 117px;
+    margin: auto;
+}
+
+.header-container, .navbar-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-branding {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    pointer-events: none;
+}
+
+.full-w {
+    width: 100%;
+    text-align: center;
+}
+
+.height-auto {
+    height: auto !important;
+}
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 42px;
+}
+
+.nav-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.home-hero {
+    background-image: url('media/textures/Texture-beige-desktop.png');
+    height: 105vh;
+    background-size: cover;
+}
+
+.center-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+}
+
+.title-1 {
+    font-family: 'Agrandir';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 145%;
+    font-size: 54px;
+}
+
+.row {
+    width: 100%;
+}
+
+.hero-parqarqah {
+    width: 580px;
+    margin-top: 6px;
+    margin-bottom: 52px;
+}
+
+.paragraph-1-scroll {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    width: auto;
+}
+
+.scroller {
+    height: 32px;
+    margin-left: 10px;
+    width: 300px !important;
+    line-height: 1.2em;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    transition: 1s;
+}
+
+.scroller > span {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+
+}
+@keyframes slide {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.2em;
+    }
+    50% {
+      top: -2.4em;
+    }
+    75% {
+      top: -3.6em;
+    }
+}
+
+.paragraph-1 {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.8em;
+}
+
+.button-standart {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: #D8D4F2;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px black;
+    transition: .3s;
+}
+
+.button-standart:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px #D8D4F2;
+}
+
+.hero-text-section {
+    margin-top: 92px;
+}
+
+.hero-paragraph-container {
+    display: flex;
+    align-items: center;
+}
+
+.content-asolutly-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 144px;
+}
+
+.cycle-background {
+    background-image: url('media/textures/Vector.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-mockup {
+    position: relative;
+    height: auto;
+    height: 560px;
+    width: 400px;
+}
+
+.mockup {
+    position: absolute;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.mockup-star-top {
+    position: absolute;
+    z-index: 3;
+    width: 91px;
+    height: auto;
+    right: -50px;
+}
+
+.mockup-star-bottom {
+    position: absolute;
+    z-index: 3;
+    width: 91px;
+    height: auto;
+    bottom: 50px;
+    left: -50px;
+}
+
+.mockup-bg {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.hero-word {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.border-image {
+    position: absolute;
+    left: 0;
+    top: 64px;
+}
+
+.first-section {
+    display: flex;
+    align-items: center;
+}
+
+.first-section-container {
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+}
+
+.top-text{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: center;
+    color: white;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+}
+
+.about-zeina-img {
+    position: absolute;
+    width: 316px;
+    margin: auto;
+    z-index: 2;
+}
+
+.about-star-top {
+    position: absolute;
+    z-index: 10;
+    width: 91px;
+    height: auto;
+    right: 35vw;
+}
+
+.about-star-bottom {
+    position: absolute;
+    z-index: 3;
+    width: 91px;
+    height: auto;
+    left: 35vw;
+    top: 60vh;
+}
+
+.buttons-container {
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-secondary {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 2px 48px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 70px;
+    transition: .3s;
+}
+
+.buttons-secondary:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 2px 48px;
+    color:#F93460;
+    border: 2px solid white;
+    box-shadow: 5px 5px 1px 1px #F93460;
+    border-radius: 70px;
+    transition: .3s;
+}
+
+.buttons-secondary-active {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 45px;
+    text-decoration: none;
+    background-color: white;
+    padding: 2px 48px;
+    color:#F93460;
+    border: 2px solid white;
+    box-shadow: 5px 5px 1px 1px #F93460;
+    border-radius: 70px;
+    transition: .3s;
+}
+
+.about-buttons {
+    margin: 0 18px;
+}
+
+.moving-text-1 {
+    z-index: 1;
+    top: 110px;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color: #F3EEEA;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    width: 200rem;
+}
+
+.moving-text-2 {
+    z-index: 5;
+    top: 210px;
+    left: 0;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FC2F5D;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    width: 200rem;
+}
+
+.moving-text-3 {
+    z-index: 1;
+    top: 310px;
+    position: absolute;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    color:  #D7D2F1;
+    transform: rotate(-4.3deg);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    width: 200rem;
+}
+
+.about-text-image-section {
+    box-sizing: border-box;
+    position: relative;
+    width: 100vw;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.about-paragraph {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    transition: .3s;
+}
+
+.about-paragraph-container {
+    padding-bottom: 106px;
+    height: 40vh;
+    background-color: #000000;
+}
+
+.second-section {
+    padding: 5vh;
+    background-image: url('media/textures/bg-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+}
+
+.second-section-title {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 146.4%;
+    color: #181819;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.services-span {
+    font-family: 'Ahsing';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 146.4%;
+    letter-spacing: 0.04em;
+    color: #F3EEEA;
+    background-color: #000000;
+    border-radius: 60px;
+    padding: 5px 28px;
+    margin: 0 18px;
+    transform: rotate(-3.17deg);
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-card-icon {
+    height: 83px;
+    width: 83px;
+}
+
+.service-card-bg {
+    text-align: center;
+    background: #D8D4F2;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 2vh 5vw;
+    width: 40vw;
+}
+
+.service-card-icon {
+    margin-top: -10vh;
+}
+
+.service-card-title {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 162.4%;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.service-card-button {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 162.4%;
+    color: #000000;
+}
+
+.service-top-left {
+    margin-left: auto;
+}
+
+.service-top-right {
+    margin-right: auto;
+}
+
+.service-bottom-left {
+    margin-left: auto;
+}
+
+.service-bottom-right {
+    margin-right: auto;
+}
+
+.service-card {
+    padding: 5vh 1vw;
+}
+
+.button-standart-light:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1em;
+    text-decoration: none;
+    background-color: #D8D4F2;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px black;
+    transition: .3s;
+}
+
+.button-standart-light {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1em;
+    text-decoration: none;
+    background-color: white;
+    padding: 16px 48px;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    box-shadow: 5px 5px 1px 1px #D8D4F2;
+}
+
+.second-buttom-container {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.second-button-style {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+    transition: .3s;
+}
+
+.second-button-style:hover {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+}
+
+.second-button-style-active {
+    font-family: 'Tropiline';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.4%;
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 16px 24px;
+    border-radius: 160px;
+}
+
+.second-nav button {
+    margin: 0 10px;
+}
+
+.second-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-hidden-default {
+    margin-top: 36px;
+}
+
+.second-button-arrow {
+    border: 0;
+    background-color: transparent;
+}
+
+.service-info-1 {
+    width: 500px;
+    background: #D8D4F2;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 36px 43px;
+    margin-right: 35px;
+    height: 100%;
+}
+
+.service-info-2 {
+    width: 500px;
+    background: #F3EEEA;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 40px;
+    padding: 36px 43px;
+    margin-left: 35px;
+    height: 100%;
+}
+
+.second-left-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.second-right-container {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.second-label {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 155%;
+    background-color: white;
+    border: 2px solid #000000;
+    box-shadow: 2px 2px 0px #000000;
+    border-radius: 40px;
+    padding: 16px 36px;
+    text-align: center;
+    width: auto;
+    margin-top: -72px;
+}
+
+.service-info-title {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 162.4%;
+    margin-top: 72px;
+    margin-bottom: 92px;
+    text-align: center;
+}
+
+.service-icon-1 {
+    width: 328px;
+    height: 328px;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-paragraph {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.star-icon {
+    width: 54px;
+    height: 54px;
+}
+
+.service-info-h {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+}
+
+.case-stadies {
+    background-image: url('media/textures/plastic-wrap.png');
+    padding: 10vh 3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.case-stadie-container {
+    background: #F3EEEA;
+    border: 2px solid #000000;
+    border-radius: 60px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.case-study-label {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 155%;
+    text-align: center;
+    color: #000000;
+    background: #D8D4F2;
+    border-radius: 40px;
+    padding: 16px 36px;
+    margin: auto;
+    transform: matrix(1, -0.04, 0.03, 1, 0, 0);
+    margin-top: -5vh;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container {
+    width: 100%;
+    padding: 5vh 5vw;
+}
+
+.case-study-img {
+    width: auto;
+    height: 60vh;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #000000 !important;
+}
+
+.slide-h {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 2vh;
+}
+
+.slide-span-1 {
+    background-color: #3C6BB9;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
+}
+
+.slide-span-2 {
+    background-color: #000000;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
+}
+
+.slide-span-3 {
+    background-color: #F93460;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
+}
+
+section {
+    height: 105vh;
+}
+
+.img-slide-container {
+    text-align: center;
+}
+
+.slide-h-second {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.slide-p-second {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.slide-second-img {
+    height: 35vh;
+}
+
+.img-video-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.feedbacks {
+    background: #F3EEEA;
+    height: auto;
+}
+
+.feedback-header {
+    text-align: center;
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 155%;
+    padding-top: 5vh;
+}
+
+.feedback-p {
+    text-align: center;
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1em;
+}
+
+.feedback-container {
+    align-items: flex-start;
+}
+
+.feedback-span {
+    background: #D8D4F2;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+}
+
+.container-img {
+    padding: 5vh 10vw;
+}
+
+.feedback-img {
+    width: 100%;
+    filter: drop-shadow(8px 8px 20px rgba(0, 0, 0, 0.1));
+    border-radius: 30px;
+    margin: 2vh 0;
+}
+
+.feedback-arrow {
+    width: 100px;
+    height: auto;
+}
+
+.cta-section {
+    background-image: url('media/textures/plastic-wrap.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.cta-h {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.background-opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 15vh 5vw;
+}
+
+.cta-button {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    color: #000000;
+    font-size: 30px;
+    line-height: 1em;
+    padding: 16px 89px;
+    text-decoration: none;
+    background: #F3EEEA;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.cta-button:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    color: black;
+    font-size: 30px;
+    line-height: 1em;
+    padding: 16px 89px;
+    text-decoration: none;
+    background: #D8D4F2;
+    border-radius: 50px;
+}
+
+.cta-container-left {
+    display: flex;
+    align-items: center;
+}
+
+.cta-container-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.return {
+    transform: rotate(180deg);
+}
+
+.feedback-more-button {
+    background-color: transparent;
+    border: 0;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+footer {
+    background-color: #F3EEEA;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 18px;
+    text-align: center;
+}
+
+.footer-nav-link:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 18px;
+    text-align: center;
+}
+
+.footer-social-p {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-social-link {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-h {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-bottom-link:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-bottom {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
