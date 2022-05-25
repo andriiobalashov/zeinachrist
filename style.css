@@ -82,9 +82,18 @@ img {
     pointer-events: none;
 }
 
+.height-auto {
+    height: auto !important;
+}
+
 .navbar {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
 }
 
 .nav-item {
@@ -121,6 +130,10 @@ img {
     font-weight: 800;
     line-height: 145%;
     font-size: 54px;
+}
+
+.row {
+    width: 100%;
 }
 
 .hero-parqarqah {
@@ -296,7 +309,8 @@ img {
 }
 
 .first-section {
-    height: auto;
+    display: flex;
+    align-items: center;
 }
 
 .first-section-container {
@@ -306,8 +320,8 @@ img {
 }
 
 .top-text{
-    padding-top: 24px;
-    padding-bottom: 54px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: clip;
@@ -322,9 +336,7 @@ img {
     position: relative;
     display: flex;
     justify-content: center;
-    padding-bottom: 105px;
-    width: 316px;
-    height: 510px;
+    height: 80vh;
     margin: auto;
     text-align: center;
 }
@@ -338,11 +350,10 @@ img {
 
 .about-star-top {
     position: absolute;
-    z-index: 3;
+    z-index: 10;
     width: 91px;
     height: auto;
-    top: -10px;
-    right: -100px;
+    right: 35vw;
 }
 
 .about-star-bottom {
@@ -350,12 +361,11 @@ img {
     z-index: 3;
     width: 91px;
     height: auto;
-    bottom: -10px;
-    left: -100px;
+    left: 35vw;
+    top: 60vh;
 }
 
 .buttons-container {
-    padding-top: 106px;
     padding-bottom: 64px;
     display: flex;
     justify-content: center;
@@ -487,13 +497,16 @@ img {
 
 .about-paragraph-container {
     padding-bottom: 106px;
+    height: 40vh;
+    background-color: #000000;
 }
 
 .second-section {
-    padding: 75px;
+    padding: 5vh;
     background-image: url('/media/textures/bg-2.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 115vh;
 }
 
 .second-section-title {
@@ -507,7 +520,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 85px;
+    margin-bottom: 5vh;
 }
 
 .services-span {
@@ -542,12 +555,12 @@ img {
     border: 2px solid #000000;
     box-shadow: 4px 4px 0px #000000;
     border-radius: 40px;
-    padding: 64px 100px;
-    width: 500px;
+    padding: 2vh 5vw;
+    width: 40vw;
 }
 
 .service-card-icon {
-    margin-top: -150px;
+    margin-top: -10vh;
 }
 
 .service-card-title {
@@ -557,7 +570,7 @@ img {
     font-size: 25px;
     line-height: 162.4%;
     color: #000000;
-    margin-bottom: 36px;
+    margin-bottom: 1rem;
 }
 
 .service-card-button {
@@ -570,12 +583,6 @@ img {
     font-size: 15px;
     line-height: 162.4%;
     color: #000000;
-}
-
-.service-card-butto::after {
-    content: url("");
-    width: 20px;
-    height: 20px;
 }
 
 .service-top-left {
@@ -595,7 +602,7 @@ img {
 }
 
 .service-card {
-    padding: 45px 35px;
+    padding: 5vh 1vw;
 }
 
 .button-standart-light:hover {
@@ -603,10 +610,10 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 45px;
+    line-height: 1em;
     text-decoration: none;
     background-color: #D8D4F2;
-    padding: 8px 48px;
+    padding: 16px 48px;
     color: black;
     border: 2px solid #000000;
     border-radius: 70px;
@@ -619,10 +626,10 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 45px;
+    line-height: 1em;
     text-decoration: none;
     background-color: white;
-    padding: 8px 48px;
+    padding: 16px 48px;
     color: black;
     border: 2px solid #000000;
     border-radius: 70px;
@@ -630,7 +637,7 @@ img {
 }
 
 .second-buttom-container {
-    margin-top: 32px;
+    margin-top: 1rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -793,7 +800,7 @@ img {
 
 .case-stadies {
     background-image: url('/media/textures/plastic-wrap.png');
-    padding: 126px 92px;
+    padding: 10vh 3vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -803,8 +810,8 @@ img {
     background: #F3EEEA;
     border: 2px solid #000000;
     border-radius: 60px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .case-study-label {
@@ -820,7 +827,7 @@ img {
     padding: 16px 36px;
     margin: auto;
     transform: matrix(1, -0.04, 0.03, 1, 0, 0);
-    margin-top: -48px;
+    margin-top: -5vh;
 }
 
 .label-container {
@@ -830,11 +837,12 @@ img {
 
 .slider-container {
     width: 100%;
-    padding: 72px 124px;
+    padding: 5vh 5vw;
 }
 
 .case-study-img {
-    width: 100%;
+    width: auto;
+    height: 60vh;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -848,11 +856,61 @@ img {
     font-size: 22px;
     line-height: 45px;
     color: #000000;
+    margin-bottom: 2vh;
 }
 
-.slide-span {
+.slide-span-1 {
     background-color: #3C6BB9;
     border-radius: 40px;
     padding: 5px 16px;
     color: white;
+}
+
+.slide-span-2 {
+    background-color: #000000;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
+}
+
+.slide-span-3 {
+    background-color: #F93460;
+    border-radius: 40px;
+    padding: 5px 16px;
+    color: white;
+}
+
+section {
+    height: 105vh;
+}
+
+.img-slide-container {
+    text-align: center;
+}
+
+.slide-h-second {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.slide-p-second {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 2vh;
+}
+
+.slide-second-img {
+    height: 35vh;
+}
+
+.img-video-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
 }
