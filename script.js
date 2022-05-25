@@ -193,3 +193,13 @@ $('#service-button-nav-4').click(function() {
   $('#second-section').addClass('height-auto');
 });
 
+$('#feedback-more-button').click(function() {
+  $('#feedback-img-hide-1').removeClass('none');
+  $('#feedback-img-hide-2').removeClass('none');
+  $('#feedback-img-hide-3').removeClass('none');
+  $('#feedback-img-hide-4').removeClass('none');
+  $('#feedback-img-hide-5').removeClass('none');
+  $('#feedback-more-button').addClass('return');
+});
+
+
