@@ -1008,18 +1008,19 @@ section {
     text-decoration: none;
     background: #F3EEEA;
     border-radius: 50px;
+    transition: .3s;
 }
 
 .cta-button:hover {
     font-family: 'Tropiline Sans';
     font-style: normal;
     font-weight: 300;
-    color: #000000;
+    color: black;
     font-size: 30px;
     line-height: 1em;
     padding: 16px 89px;
     text-decoration: none;
-    background: #F3EEEA;
+    background: #D8D4F2;
     border-radius: 50px;
 }
 
@@ -1043,4 +1044,114 @@ section {
     border: 0;
     margin-top: 2vh;
     margin-bottom: 5vh;
+}
+
+footer {
+    background-color: #F3EEEA;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 18px;
+    text-align: center;
+}
+
+.footer-nav-link:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 18px;
+    text-align: center;
+}
+
+.footer-social-p {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-social-link {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-h {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-link {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-bottom-link:hover {
+    font-family: 'Tropiline Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    text-align: center;
+    display: block;
+    text-align: center;
+}
+
+.footer-bottom {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
 }
