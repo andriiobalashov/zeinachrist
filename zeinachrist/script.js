@@ -202,4 +202,3 @@ $('#feedback-more-button').click(function() {
   $('#feedback-more-button').addClass('return');
 });
 
-

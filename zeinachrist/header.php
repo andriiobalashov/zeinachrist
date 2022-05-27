@@ -40,8 +40,9 @@
 	<header>
 		<div class="container header-container">
 			<nav class="navbar navbar-expand-lg navbar-light">
+				<img class="logo-mobile" src="<?php echo get_template_directory_uri()?>/media/logo/logo-blanc.png" alt="logo">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<img src="<?php echo get_template_directory_uri()?>/media/textures/menu.svg" alt="">
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 					<div class="navbar-nav">

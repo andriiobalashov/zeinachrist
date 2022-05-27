@@ -21,8 +21,8 @@
             <div>
               <h2 class="footer-h">Zeina Christ & co</h2>
               <div class="footer-nav">
-                <a href="#first-section" class="footer-nav-link">À propos</a>
-                <a href="#case-stadies" class="footer-nav-link">Case studies</a>
+                <a href="#first-section" class="footer-nav-link">À propos</a> <br>
+                <a href="#case-stadies" class="footer-nav-link">Case studies</a> <br>
                 <a href="#second-section" class="footer-nav-link">Service</a>
               </div>
             </div>
@@ -73,8 +73,8 @@
         },
         loop: true,
         autoplay: {
-          delay: 5000,
-        },
+        delay: 60000,
+      },
       });
     </script>
     <script src="<?php echo get_template_directory_uri()?>/script.js"></script>

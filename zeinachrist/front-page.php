@@ -47,6 +47,33 @@ get_header();
         </div>
     </div>
     </section>
+    <section class="home-hero-mobile" id="hero-section-mobile">
+        <div class="container">
+            <div class="row center-container">
+                <div class="col-lg-12">
+                <img src="<?php echo get_template_directory_uri()?>/media/textures/hero-mobile.png" class="hero-mobile-img" alt="">
+                    <div class="hero-text-section">
+                    <h1 class="title-1">Agence <label class="hero-word">Créative<img class="border-image" src="<?php echo get_template_directory_uri()?>/media/textures/border.svg" alt=""></label> <br>
+                        & Social Média</h1>
+                        <div class="hero-paragraph-container">
+                        <div class="paragraph-1-scroll">J’accompagne les</div>
+                        <div class="scroller">
+                            <span>
+                            entrepreneurs <br/>
+                            porteurs de projets <br/>
+                            influenceurs <br/>
+                            communiquants <br/>
+                            créateurs
+                            </span>
+                        </div>
+                    </div>
+                    <p class="paragraph-1 hero-parqarqah">à développer du contenu créatif et une communication innovante sur les réseaux sociaux</p>
+                <a href="https:/calendly.com/zeinachrist-co" target="_blank" class="button-standart hero-button">Je me lance</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="first-section" id="first-section">
     <div class="first-section-container">
         <div class="top-text">
@@ -58,15 +85,15 @@ get_header();
         <div class="image-container">
             <img src="<?php echo get_template_directory_uri()?>/media/2-a-propos/about-zeina.png" class="about-zeina-img" alt="">
             <img src="<?php echo get_template_directory_uri()?>/media/textures/sparkles.svg" class="about-star-top" alt="">
-            <img src="<?php echo get_template_directory_uri()?>/media/textures/sparkles.svg" class="about-star-bottom" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/media/textures/sparkles.svg" id="star-left" class="about-star-bottom" alt="">
         </div>
         <div class="moving-text-1">Je suis Zeina Je suis Zeina Je suis Zeina Je suis Zeina Je suis Zeina Je suis Zeina</div>
         <div class="moving-text-2">Consultante Social Media Consultant Consultante Social Media Consultant Consultante</div>
         <div class="moving-text-3">& Créatrice de contenu & Cré & Créatrice de contenu & Cré & Créatrice de contenu &</div>
         </div>
         <div class="buttons-container">
-        <button id="about-button-1" class="buttons-secondary about-buttons">Qui suis-je ?</button>
-        <button id="about-button-2" class="buttons-secondary about-buttons">Ma vision</button>
+        <button id="about-button-1" class="buttons-secondary about-buttons" onclick="document.getElementById('star-left').style.right = '35vw'; document.getElementById('star-left').style.left = null;">Qui suis-je ?</button> <br>
+        <button id="about-button-2" class="buttons-secondary about-buttons">Ma vision</button> <br>
         <button id="about-button-3" class="buttons-secondary about-buttons">Mon agence</button>
         </div>
         <div class="container about-paragraph-container">
@@ -90,7 +117,7 @@ get_header();
     <section class="second-section" id="second-section">
     <div class="container">
         <div class="second-show-default">
-        <h2 class="second-section-title">Les <div class="services-span">services</div> que je propose</h2>
+        <h2 class="second-section-title">Les <div class="services-span">services</div> <span>que je propose</span></h2>
         <div class="row cards-container">
             <div class="col-lg-6">
             <div class="service-card">
@@ -123,7 +150,7 @@ get_header();
             <div class="service-card">
                 <div class="service-card-bg service-bottom-right">
                 <img src="<?php echo get_template_directory_uri()?>/media/3-services/icon-4.png" class="service-card-icon" alt="">
-                <h5 class="service-card-title">Ateliers, Formations <br> & Masterclass</h5>
+                <h5 class="service-card-title">Ateliers & <br> Formations</h5>
                 <button id="service-button-4" class="service-card-button">En savoir plus</button>
                 </div>
             </div>
@@ -137,11 +164,11 @@ get_header();
         <div class="second-nav">
             <button href="" id="service-button-nav-0" class="second-button-arrow">
             <img src="<?php echo get_template_directory_uri()?>/media/textures/arrow-red.svg" alt="">
-            </button>
-            <button href="" class="second-button-style" id="service-button-nav-1">Coaching Social Media & Créatif</button>
-            <button href="" class="second-button-style" id="service-button-nav-2">Stratégie Social Media</button>
-            <button href="" class="second-button-style" id="service-button-nav-3">Community Management</button>
-            <button href="" class="second-button-style" id="service-button-nav-4">Ateliers, Formations & Masterclass</button>
+            </button> <br>
+            <button href="" class="second-button-style" id="service-button-nav-1">Coaching Social Media & Créatif</button> <br>
+            <button href="" class="second-button-style" id="service-button-nav-2">Stratégie Social Media</button> <br>
+            <button href="" class="second-button-style" id="service-button-nav-3">Community Management</button> <br>
+            <button href="" class="second-button-style" id="service-button-nav-4">Ateliers & Formations</button>
         </div>
         <div id="service-1-info" class="none">
             <h1 class="service-info-title">Coaching Social Media & Créatif</h1>
@@ -154,6 +181,7 @@ get_header();
                     <img class="service-icon-1" src="<?php echo get_template_directory_uri()?>/media/textures/zeina-bitmoji contour-blanc.png" alt="">
                     <p class="service-paragraph">Faire des stories engageantes, créer des visuels avec un petit budget ou utiliser les bons hashtags ? <br>
                     Le temps d'une pause déjeuner, je réponds à toutes tes questions et te partage des astuces et recommandations sur mesure pour t'aider à gérer tes réseaux sociaux ou créer du contenu qualitatif comme une boss !</p>
+                    <div class="serivce-price-container"><p class="service-price">à partir de 75€/mois</p></div>
                     </div>
                 </div>
                 </div>
@@ -195,6 +223,7 @@ get_header();
                     <div class="service-content">
                     <img class="service-icon-1" src="<?php echo get_template_directory_uri()?>/media/textures/zeina-bitmoji contour-blanc.png" alt="">
                     <p class="service-paragraph">Je t’aide à définir les actions à mettre en place étapes par étapes pour te rendre visible sur les réseaux sociaux, bâtir une communauté engagée et réaliser tes objectifs de marque. </p>
+                    <div class="serivce-price-container"><p class="service-price">à partir de 720€/mois</p></div>
                     </div>
                 </div>
                 </div>
@@ -236,6 +265,7 @@ get_header();
                     <div class="service-content">
                     <img class="service-icon-1" src="<?php echo get_template_directory_uri()?>/media/textures/zeina-bitmoji contour-blanc.png" alt="">
                     <p class="service-paragraph">Suivant une ligne éditoriale bien définie, je gère l’image de ta marque et ton contenu sur les réseaux sociaux en créant de l’engagement et de l'interaction auprès de ta communauté.</p>
+                    <div class="serivce-price-container"><p class="service-price">à partir de 529€/mois</p></div>
                     </div>
                 </div>
                 </div>
@@ -264,7 +294,7 @@ get_header();
             </div>
         </div>
         <div id="service-4-info" class="none">
-            <h1 class="service-info-title">Ateliers, Formations & Masterclass</h1>
+            <h1 class="service-info-title">Ateliers & Formations</h1>
             <div class="row">
             <div class="col-lg-6">
                 <div class="second-left-container">
@@ -273,6 +303,7 @@ get_header();
                     <div class="service-content">
                     <img class="service-icon-1" src="<?php echo get_template_directory_uri()?>/media/textures/zeina-bitmoji contour-blanc.png" alt="">
                     <p class="service-paragraph">Après avoir étudié ton besoin et les compétences à développer, je forme ton équipe de communicants aux pratiques & tendances actuelles à adopter sur les réseaux sociaux et à la création de contenu.</p>
+                    <div class="serivce-price-container"><p class="service-price">sur devis</p></div>
                     </div>
                 </div>
                 </div>
@@ -429,7 +460,7 @@ get_header();
         <div class="container">
         <div class="row">
             <div class="col-lg-6 cta-container-left">
-            <h1 class="cta-h">Prêt à démarrer l’aventure?</h1>
+            <h1 class="cta-h">Prêt.e à démarrer l’aventure?</h1>
             </div>
             <div class="col-lg-6 cta-container-right">
             <a href="https:/calendly.com/zeinachrist-co" target="_blank"  class="cta-button">On y va !</a>
