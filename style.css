@@ -1591,5 +1591,90 @@ footer {
 		border: 0px;
 		background: transparent;
 	}
+
+    /* Second nav */
+	#second-section .second-nav{
+		display: block;
+		text-align:center;
+	}
+	
+	/* Second button style */
+	#second-section .second-nav .second-button-style{
+		font-size:14px;
+		margin: 12px 0;
+	}
+	
+	/* Heading */
+	#second-section div h1{
+		margin-top:32px;
+		margin-bottom:0px;
+		font-size:25px;
+	}
+	
+	/* Service info 1 */
+	#second-section div .service-info-1{
+		margin-right:0px;
+		width: 100%;
+	}
+	
+	/* Service info 2 */
+	#second-section div .service-info-2{
+		margin-left:0px;
+	}
+	
+	/* Second label */
+	#second-section .service-info-2 .second-label{
+		font-size:25px;
+	}
+	
+	/* Second label */
+	#second-section .service-info-1 .second-label{
+		font-size:25px;
+	}
+	
+	/* Paragraph */
+	#second-section div p{
+		font-size:14px;
+	}
+	
+	/* Heading */
+	#second-section div h4{
+		font-size:18px;
+	}
+	
+	/* Column 6/12 */
+	.second-hidden-default div .col-lg-6{
+		padding-top: 64px;
+	}
+	
+	/* Heading */
+	#page main #second-section .container .second-hidden-default div h1{
+		transform:translatex(0px) translatey(0px) !important;
+	}
+	
+	/* Second left container */
+	#second-section div .second-left-container{
+		justify-content:center;
+	}
+	
+	/* Second right container */
+	#second-section div .second-right-container{
+		justify-content:center;
+	}
+	
+	/* Service info 2 */
+	#page main #second-section .container .second-hidden-default div .row .col-lg-6 .second-right-container .service-info-2{
+		width:100% !important;
+	}
+	
+	.service-icon-1{
+		width: 40%;
+		height: auto;
+	}
+	
+	/* Service info 1 */
+	#page main #second-section .container .second-hidden-default div .row .col-lg-6 .second-left-container .service-info-1{
+		width:100% !important;
+	}
 	
 }
